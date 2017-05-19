@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.eric.promedio.datosActivity">
+
+    <TextView
+        android:id="@+id/tv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Nombres: Eric Jesus"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Apellidos: Monsalve Santibañez"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Email: ericmonsalve@hotmail.com"
+        android:textSize="20sp" />
+    <TableRow>
+        <TextView
+            android:id="@+id/txt_eva1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright 2017 Eric Monsalve Licensed under the Apache License, Version 1.0;"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp" />
+
+    </TableRow>
+</TableLayout>
